@@ -10,7 +10,8 @@ Il repository include:
 - `src/main`: Il file del codice .java esportato da Intellij.
 - `validateLogin`: Il sequence Diagram della funzione validateLogin.
 - `accettaProposta`: Il sequence Diagram della funzione accettaProposta.
-- `UMLSoluzione.svg`: Lo schema UML in vettoriale per poterlo visualizzare completamente.
+- `UMLobject`: Lo schema UML del dominio del problema
+- `UMLSoluzione.svg`: Lo schema UML del dominio della soluzione, in vettoriale per poterlo visualizzare completamente.
 - `Documentazione.pdf`: L'intera documentazione del progetto sviluppato.
 
 ## Contribuenti
