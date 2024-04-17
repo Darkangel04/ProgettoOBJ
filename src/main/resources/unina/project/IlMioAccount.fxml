@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.IlMioAccount">
+   <top>
+      <AnchorPane prefHeight="118.0" prefWidth="848.0" style="-fx-background-color: #01796F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="43.0" layoutY="28.0" text="IL MIO ACCOUNT" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="37.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="725.0" layoutY="37.0" mnemonicParsing="false" onAction="#backButtonOnAction" style="-fx-background-color: #01796F;" text="&lt;" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="pagineCreateTable" layoutX="419.0" layoutY="28.0" prefHeight="426.0" prefWidth="340.0" style="-fx-border-color: #01796F; -fx-background-color: #FFFFFF;">
+              <columns>
+                <TableColumn fx:id="pagineCreateColumn" prefWidth="340.0" text="PAGINE CHE HO CREATO" />
+              </columns>
+            </TableView>
+            <Button fx:id="newPageButton" layoutX="97.0" layoutY="337.0" mnemonicParsing="false" onAction="#newPageButtonOnAction" style="-fx-background-color: #01796F;" text="Crea una nuova pagina" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="nicknameLabel" layoutX="112.0" layoutY="106.0" prefHeight="42.0" prefWidth="289.0">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="idLabel" layoutX="67.0" layoutY="51.0" prefHeight="30.0" prefWidth="133.0">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="48.0" text="ID:">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="109.0" text="E-Mail:">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="eliminaAccountButton" layoutX="97.0" layoutY="399.0" mnemonicParsing="false" onAction="#eliminaAccountButtonOnAction" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #01796F;" text="Elimina account" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="29.0" layoutY="173.0" text="Password:">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordLabel" layoutX="153.0" layoutY="170.0" prefHeight="42.0" prefWidth="247.0">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="eliminapagButton" layoutX="97.0" layoutY="273.0" mnemonicParsing="false" onAction="#eliminapagButtonOnAction" prefHeight="42.0" prefWidth="233.0" style="-fx-background-color: #01796F;" text="Elimina pagina" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

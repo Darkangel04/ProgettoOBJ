@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Classifica">
+   <top>
+      <AnchorPane prefHeight="94.0" prefWidth="600.0" style="-fx-background-color: #01796F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="171.0" layoutY="12.0" text="CLASSIFICA" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="42.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#backButtonOnAction" style="-fx-background-color: #01796F;" text="&lt;" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="classificaTableView" layoutX="11.0" layoutY="11.0" prefHeight="376.0" prefWidth="577.0" style="-fx-border-color: #01796F; -fx-background-color: #FFFFFF;">
+              <columns>
+                <TableColumn fx:id="visualColumn" prefWidth="91.0" text="Visualizzazioni" />
+                <TableColumn fx:id="titoloColumn" prefWidth="260.0" text="Titolo" />
+                  <TableColumn fx:id="autoreColumn" minWidth="0.0" prefWidth="224.0" text="Autore" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

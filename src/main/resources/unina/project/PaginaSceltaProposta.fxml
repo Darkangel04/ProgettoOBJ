@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.PaginaSceltaProposta">
+   <top>
+      <AnchorPane prefHeight="80.0" prefWidth="652.0" style="-fx-background-color: #01796F;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#backButtonOnAction" style="-fx-background-color: #01796F;" text="&lt;" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="21.0" />
+               </font>
+            </Button>
+            <Label layoutX="210.0" layoutY="17.0" text="Le mie notifiche" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="132.0" layoutY="40.0" text="Attuale">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="432.0" layoutY="40.0" text="Proposta">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="19.0" />
+               </font>
+            </Label>
+            <Text fx:id="propostaText" layoutX="340.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="294.21630859375" />
+            <Text fx:id="attualeText" layoutX="16.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="300.21630859375" />
+            <Button fx:id="accettaButton" layoutX="207.0" layoutY="313.0" mnemonicParsing="false" onAction="#accettaButtonOnAction" style="-fx-background-color: #01796F;" text="ACCETTA" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="rifiutaButton" layoutX="331.0" layoutY="313.0" mnemonicParsing="false" onAction="#rifiutaButtonOnAction" prefHeight="45.0" prefWidth="116.0" style="-fx-background-color: #01796F;" text="RIFIUTA" textFill="WHITE">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="19.0" />
+               </font>
+            </Button>
+            <Label fx:id="avvisoLabel" alignment="TOP_CENTER" layoutX="127.0" layoutY="14.0" prefHeight="21.0" prefWidth="398.0" textFill="RED">
+               <font>
+                  <Font name="BM DoHyeon OTF" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
