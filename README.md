@@ -7,8 +7,9 @@ Il nostro obiettivo principale è sviluppare un applicativo che possa gestire le
 
 Il repository include:
 
-- `PgCode.sql`: Il file del codice .java esportato da Intellij.
-- `PagineWiki.sql`: Un file che contiene il codice inserito nella documentazione.
+- `src/main`: Il file del codice .java esportato da Intellij.
+- `validateLogin`: Il sequence Diagram della funzione validateLogin.
+- `accettaProposta`: Il sequence Diagram della funzione accettaProposta.
 - `UMLSoluzione.svg`: Lo schema UML in vettoriale per poterlo visualizzare completamente.
 - `Documentazione.pdf`: L'intera documentazione del progetto sviluppato.
 
