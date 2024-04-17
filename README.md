@@ -9,7 +9,7 @@ Il repository include:
 
 - `PgCode.sql`: Il file del codice .java esportato da Intellij.
 - `PagineWiki.sql`: Un file che contiene il codice inserito nella documentazione.
-- `UML Soluzione.svg`: Lo schema UML in vettoriale per poterlo visualizzare completamente.
+- `UMLSoluzione.svg`: Lo schema UML in vettoriale per poterlo visualizzare completamente.
 - `Documentazione.pdf`: L'intera documentazione del progetto sviluppato.
 
 ## Contribuenti
